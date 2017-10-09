@@ -1,0 +1,132 @@
+body{
+	background: #423B39;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#header{
+	height: 200px;
+	width: auto;
+}
+.logo {
+	height: 150px;
+	width: 400px;
+}
+
+
+h1{
+	text-align: initial;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-left:30px;
+}
+
+#formWrap{
+	width: 720px;
+	margin-top: 30px;
+	margin-left: 30px;
+	background: #fff;
+	border:1px solid #f1f1f1;
+	-moz-border-radius:20px;
+	-moz-box-shadow:2px 2px 5px #999;
+	-webkit-border-radius:20px;
+	-webkit-box-shadow:2px 2px 5px #999;
+	padding: 16px 10px 40px;
+
+}
+#formWrap #form{
+	border-top: 1px solid #eee;
+	width: 720px;
+	
+}
+#form .row{
+	border-bottom: 1px dotted #eee;
+	display: block;
+	line-height: 38px;
+	overflow: auto;
+	padding: 24px 0px;
+	width: 100%;
+}
+#form .row .label{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 180px;
+	text-align: right;
+	float: left;
+	padding-right: 10px;
+	margin-right: 10px;
+}
+#form .row .input{
+	float: left;
+	margin-right: 10px;
+	width: auto;
+}
+.detail{
+	width: 260px;
+	font-family: Arial. Helvetica, sans-serif;
+	font-size: 20px;
+	padding:7px 8px;
+	margin: 0px;
+}
+.mess{
+	width: 450px;
+	max-width: 450px;
+	height: 170px;
+	overflow: auto;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	padding: 7px 8px;
+	line-height: 1em;
+	margin: 0;
+
+}
+#form .row .context{
+	color: #999;
+	font-size: 11px;
+	font-style: italic;
+	line-height: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 200px;
+	float: left;
+}
+#form #submit{
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 25px;
+	margin-left: 200px;
+	color: #000;
+	font-size: 16px;
+	text-shadow: 1px 1px 1px #999;
+	padding: 10px;
+
+}
+
+p{
+	color: #fff;
+
+}
+#footer{
+	width: 960px;
+	margin: 0 auto;
+	text-align: left;
+}
+#footer ul{
+	list-style-type: none;
+	color: #fff;
+	display: inline;
+	margin:5px 10px 10px 10px;
+	text-align: center;
+}
+#footer ul li a{
+	text-decoration: none;
+}
+#footer ul li a:hover{
+	text-decoration: underline;
+}
+#footer p{
+	font-weight: bold;
+}
+a{
+	color: #fff;
+	font-family: Arial, Helvetica, sans-serif;
+}
